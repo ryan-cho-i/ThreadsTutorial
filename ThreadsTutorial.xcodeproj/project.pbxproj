@@ -11,6 +11,7 @@
 		BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */; };
 		BD9F02482AFE9B8F00AB8AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9F02472AFE9B8F00AB8AA8 /* Assets.xcassets */; };
 		BD9F024B2AFE9B8F00AB8AA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9F024A2AFE9B8F00AB8AA8 /* Preview Assets.xcassets */; };
+		BD9F025B2AFE9C2800AB8AA8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F025A2AFE9C2800AB8AA8 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD9F02472AFE9B8F00AB8AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9F024A2AFE9B8F00AB8AA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD9F025A2AFE9C2800AB8AA8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,12 @@
 		BD9F02422AFE9B8C00AB8AA8 /* ThreadsTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				BD9F02432AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift */,
-				BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */,
+				BD9F02562AFE9BB300AB8AA8 /* App */,
+				BD9F02552AFE9BB100AB8AA8 /* Core */,
+				BD9F02542AFE9BAC00AB8AA8 /* Extensions */,
+				BD9F02532AFE9BA700AB8AA8 /* Models */,
+				BD9F02522AFE9BA500AB8AA8 /* Services */,
+				BD9F02512AFE9BA200AB8AA8 /* Utils */,
 				BD9F02472AFE9B8F00AB8AA8 /* Assets.xcassets */,
 				BD9F02492AFE9B8F00AB8AA8 /* Preview Content */,
 			);
@@ -65,6 +71,75 @@
 				BD9F024A2AFE9B8F00AB8AA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD9F02512AFE9BA200AB8AA8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD9F02522AFE9BA500AB8AA8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BD9F02532AFE9BA700AB8AA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD9F02542AFE9BAC00AB8AA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BD9F02552AFE9BB100AB8AA8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02582AFE9BED00AB8AA8 /* Authentication */,
+				BD9F02572AFE9BEB00AB8AA8 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BD9F02562AFE9BB300AB8AA8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02432AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BD9F02572AFE9BEB00AB8AA8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BD9F02582AFE9BED00AB8AA8 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02592AFE9C1100AB8AA8 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BD9F02592AFE9C1100AB8AA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F025A2AFE9C2800AB8AA8 /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9F025B2AFE9C2800AB8AA8 /* LoginView.swift in Sources */,
 				BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */,
 				BD9F02442AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift in Sources */,
 			);
