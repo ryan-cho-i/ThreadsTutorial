@@ -20,6 +20,7 @@
 		BD9F02722AFEF3A300AB8AA8 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02712AFEF3A300AB8AA8 /* CreateThreadView.swift */; };
 		BD9F02752AFEF3D600AB8AA8 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02742AFEF3D600AB8AA8 /* ActivityView.swift */; };
 		BD9F02792AFEF40400AB8AA8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02782AFEF40400AB8AA8 /* ProfileView.swift */; };
+		BD9F027B2AFEF52600AB8AA8 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F027A2AFEF52600AB8AA8 /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BD9F02712AFEF3A300AB8AA8 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		BD9F02742AFEF3D600AB8AA8 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		BD9F02782AFEF40400AB8AA8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BD9F027A2AFEF52600AB8AA8 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				BD9F02662AFEF2F900AB8AA8 /* FeedView.swift */,
+				BD9F027A2AFEF52600AB8AA8 /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				BD9F02672AFEF2F900AB8AA8 /* FeedView.swift in Sources */,
 				BD9F025B2AFE9C2800AB8AA8 /* LoginView.swift in Sources */,
 				BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */,
+				BD9F027B2AFEF52600AB8AA8 /* ThreadCell.swift in Sources */,
 				BD9F02752AFEF3D600AB8AA8 /* ActivityView.swift in Sources */,
 				BD9F02722AFEF3A300AB8AA8 /* CreateThreadView.swift in Sources */,
 				BD9F02632AFEF15E00AB8AA8 /* ThreadsTabView.swift in Sources */,
