@@ -24,6 +24,7 @@
 		BD9F027E2AFEFA1100AB8AA8 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F027D2AFEFA1100AB8AA8 /* CircularProfileImageView.swift */; };
 		BD9F02802AFEFAD000AB8AA8 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F027F2AFEFAD000AB8AA8 /* UserCell.swift */; };
 		BD9F02832AFEFE6700AB8AA8 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02822AFEFE6700AB8AA8 /* ProfileThreadFilter.swift */; };
+		BD9F02872AFF02A200AB8AA8 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02862AFF02A200AB8AA8 /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		BD9F027D2AFEFA1100AB8AA8 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		BD9F027F2AFEFAD000AB8AA8 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		BD9F02822AFEFE6700AB8AA8 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		BD9F02862AFF02A200AB8AA8 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 		BD9F02762AFEF3E400AB8AA8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BD9F02842AFF027A00AB8AA8 /* EditProfile */,
 				BD9F02812AFEFE5300AB8AA8 /* Model */,
 				BD9F02772AFEF3EA00AB8AA8 /* View */,
 			);
@@ -288,6 +291,22 @@
 				BD9F02822AFEFE6700AB8AA8 /* ProfileThreadFilter.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BD9F02842AFF027A00AB8AA8 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02852AFF028E00AB8AA8 /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		BD9F02852AFF028E00AB8AA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02862AFF02A200AB8AA8 /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +381,7 @@
 			files = (
 				BD9F02672AFEF2F900AB8AA8 /* FeedView.swift in Sources */,
 				BD9F025B2AFE9C2800AB8AA8 /* LoginView.swift in Sources */,
+				BD9F02872AFF02A200AB8AA8 /* EditProfileView.swift in Sources */,
 				BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */,
 				BD9F027B2AFEF52600AB8AA8 /* ThreadCell.swift in Sources */,
 				BD9F02752AFEF3D600AB8AA8 /* ActivityView.swift in Sources */,
