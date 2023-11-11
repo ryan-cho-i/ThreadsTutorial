@@ -15,6 +15,8 @@
 		BD8ACF062B00007D00FD3FB4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BD8ACF052B00007D00FD3FB4 /* FirebaseAuth */; };
 		BD8ACF082B00008A00FD3FB4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BD8ACF072B00008A00FD3FB4 /* FirebaseDatabase */; };
 		BD8ACF0A2B00009200FD3FB4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BD8ACF092B00009200FD3FB4 /* FirebaseStorage */; };
+		BD8ACF0E2B00030200FD3FB4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8ACF0D2B00030200FD3FB4 /* ContentViewModel.swift */; };
+		BD8ACF102B00062300FD3FB4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8ACF0F2B00062300FD3FB4 /* LoginViewModel.swift */; };
 		BD9F02442AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02432AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift */; };
 		BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */; };
 		BD9F02482AFE9B8F00AB8AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9F02472AFE9B8F00AB8AA8 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD8ACF0D2B00030200FD3FB4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		BD8ACF0F2B00062300FD3FB4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		BD9F02402AFE9B8C00AB8AA8 /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9F02432AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
 		BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8ACF0B2B0002E600FD3FB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD8ACF0C2B0002EC00FD3FB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD8ACF0D2B00030200FD3FB4 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		BD9F02372AFE9B8C00AB8AA8 = {
@@ -186,7 +206,8 @@
 		BD9F02572AFE9BEB00AB8AA8 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				BD9F02452AFE9B8C00AB8AA8 /* ContentView.swift */,
+				BD8ACF0C2B0002EC00FD3FB4 /* ViewModel */,
+				BD8ACF0B2B0002E600FD3FB4 /* View */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -346,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				BD9F029E2AFF4AAB00AB8AA8 /* RegistrationViewModel.swift */,
+				BD8ACF0F2B00062300FD3FB4 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -450,10 +472,12 @@
 				BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */,
 				BD9F027B2AFEF52600AB8AA8 /* ThreadCell.swift in Sources */,
 				BD9F02752AFEF3D600AB8AA8 /* ActivityView.swift in Sources */,
+				BD8ACF102B00062300FD3FB4 /* LoginViewModel.swift in Sources */,
 				BD9F027E2AFEFA1100AB8AA8 /* CircularProfileImageView.swift in Sources */,
 				BD9F02802AFEFAD000AB8AA8 /* UserCell.swift in Sources */,
 				BD9F02722AFEF3A300AB8AA8 /* CreateThreadView.swift in Sources */,
 				BD9F02832AFEFE6700AB8AA8 /* ProfileThreadFilter.swift in Sources */,
+				BD8ACF0E2B00030200FD3FB4 /* ContentViewModel.swift in Sources */,
 				BD9F02632AFEF15E00AB8AA8 /* ThreadsTabView.swift in Sources */,
 				BD9F02602AFEA23200AB8AA8 /* ThreadsTextFieldModifier.swift in Sources */,
 				BD9F02442AFE9B8C00AB8AA8 /* ThreadsTutorialApp.swift in Sources */,
