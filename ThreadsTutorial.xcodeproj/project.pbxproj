@@ -42,6 +42,8 @@
 		BD9F029F2AFF4AAB00AB8AA8 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F029E2AFF4AAB00AB8AA8 /* RegistrationViewModel.swift */; };
 		BD9F02A02AFF4CD600AB8AA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9F02992AFF357C00AB8AA8 /* GoogleService-Info.plist */; };
 		BD9F02A22AFF4DFE00AB8AA8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02A12AFF4DFD00AB8AA8 /* AuthService.swift */; };
+		BDDA23AC2B0275330011697D /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23AB2B0275330011697D /* ExploreViewModel.swift */; };
+		BDDA23AE2B0277040011697D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23AD2B0277040011697D /* PreviewProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		BD9F02992AFF357C00AB8AA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BD9F029E2AFF4AAB00AB8AA8 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		BD9F02A12AFF4DFD00AB8AA8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		BDDA23AB2B0275330011697D /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		BDDA23AD2B0277040011697D /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,7 @@
 		BD9F02542AFE9BAC00AB8AA8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BDDA23AD2B0277040011697D /* PreviewProvider.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 		BD9F02682AFEF31100AB8AA8 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				BDDA23AA2B02751E0011697D /* ViewModel */,
 				BD9F026A2AFEF32000AB8AA8 /* View */,
 			);
 			path = Explore;
@@ -399,6 +405,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		BDDA23AA2B02751E0011697D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA23AB2B0275330011697D /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -488,6 +502,7 @@
 				BD9F029F2AFF4AAB00AB8AA8 /* RegistrationViewModel.swift in Sources */,
 				BD9F025B2AFE9C2800AB8AA8 /* LoginView.swift in Sources */,
 				BD9F02A22AFF4DFE00AB8AA8 /* AuthService.swift in Sources */,
+				BDDA23AE2B0277040011697D /* PreviewProvider.swift in Sources */,
 				BD9F02872AFF02A200AB8AA8 /* EditProfileView.swift in Sources */,
 				BD9F02462AFE9B8C00AB8AA8 /* ContentView.swift in Sources */,
 				BD8ACF162B001B2B00FD3FB4 /* UserService.swift in Sources */,
@@ -496,6 +511,7 @@
 				BD8ACF102B00062300FD3FB4 /* LoginViewModel.swift in Sources */,
 				BD9F027E2AFEFA1100AB8AA8 /* CircularProfileImageView.swift in Sources */,
 				BD9F02802AFEFAD000AB8AA8 /* UserCell.swift in Sources */,
+				BDDA23AC2B0275330011697D /* ExploreViewModel.swift in Sources */,
 				BD9F02722AFEF3A300AB8AA8 /* CreateThreadView.swift in Sources */,
 				BD9F02832AFEFE6700AB8AA8 /* ProfileThreadFilter.swift in Sources */,
 				BD8ACF0E2B00030200FD3FB4 /* ContentViewModel.swift in Sources */,
