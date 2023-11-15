@@ -45,6 +45,7 @@
 		BDA138E12B05276C00781443 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA138E02B05276C00781443 /* Thread.swift */; };
 		BDA138E42B05284C00781443 /* CreateThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA138E32B05284C00781443 /* CreateThreadViewModel.swift */; };
 		BDA138E62B05286200781443 /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA138E52B05286200781443 /* ThreadService.swift */; };
+		BDA138E92B0542A700781443 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA138E82B0542A700781443 /* FeedViewModel.swift */; };
 		BDDA23AC2B0275330011697D /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23AB2B0275330011697D /* ExploreViewModel.swift */; };
 		BDDA23AE2B0277040011697D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23AD2B0277040011697D /* PreviewProvider.swift */; };
 		BDDA23B22B027A710011697D /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23B12B027A710011697D /* CurrentUserProfileView.swift */; };
@@ -86,6 +87,7 @@
 		BDA138E02B05276C00781443 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		BDA138E32B05284C00781443 /* CreateThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadViewModel.swift; sourceTree = "<group>"; };
 		BDA138E52B05286200781443 /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
+		BDA138E82B0542A700781443 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BDDA23AB2B0275330011697D /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		BDDA23AD2B0277040011697D /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		BDDA23B12B027A710011697D /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 		BD9F02642AFEF2E100AB8AA8 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				BDA138E72B05429200781443 /* ViewModel */,
 				BD9F02652AFEF2E800AB8AA8 /* View */,
 			);
 			path = Feed;
@@ -427,6 +430,14 @@
 				BDA138E32B05284C00781443 /* CreateThreadViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDA138E72B05429200781443 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDA138E82B0542A700781443 /* FeedViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		BDDA23AA2B02751E0011697D /* ViewModel */ = {
@@ -584,6 +595,7 @@
 				BD9F027E2AFEFA1100AB8AA8 /* CircularProfileImageView.swift in Sources */,
 				BD9F02802AFEFAD000AB8AA8 /* UserCell.swift in Sources */,
 				BDDA23AC2B0275330011697D /* ExploreViewModel.swift in Sources */,
+				BDA138E92B0542A700781443 /* FeedViewModel.swift in Sources */,
 				BD9F02722AFEF3A300AB8AA8 /* CreateThreadView.swift in Sources */,
 				BDDA23BD2B02BC8F0011697D /* ImageUploader.swift in Sources */,
 				BD9F02832AFEFE6700AB8AA8 /* ProfileThreadFilter.swift in Sources */,
