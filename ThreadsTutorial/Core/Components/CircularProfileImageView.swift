@@ -9,7 +9,6 @@ import SwiftUI
 import Kingfisher
 
 enum ProfileImageSize {
-    
     case xxSmall
     case xSmall
     case small
@@ -34,8 +33,9 @@ struct CircularProfileImageView: View {
     var user: User?
     let size: ProfileImageSize
     
-    init (user: User?) {
+    init (user: User?, size: ProfileImageSize) {
         self.user = user
+        self.size = size
     }
 
     var body: some View {
@@ -56,9 +56,7 @@ struct CircularProfileImageView: View {
 
 struct CircularProfileImageView_Previews: PreviewProvider {
     static var previews: some View {
-        CircularProfileImageView(user: nil, size: .xxSmall)
+        CircularProfileImageView (user: dev.user, size: .xxSmall)
     }
 }
-
-
 
