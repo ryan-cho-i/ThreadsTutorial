@@ -41,31 +41,7 @@ struct ThreadCell: View {
                         .font(.footnote)
                         .multilineTextAlignment(.leading)
                     
-                    HStack(spacing: 16) {
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "heart")
-                        }
-                        
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "bubble.right")
-                        }
-                        
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "arrow.rectanglepath")
-                        }
-                        
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "paperplane")
-                        }
-                    }
+                    ContentActionButtonView(thread: thread)
                     .foregroundColor(.black)
                     .padding(.vertical, 8)
                 }
