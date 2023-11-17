@@ -18,6 +18,38 @@
             endingLineNumber = "20"
             landmarkName = "likeThread()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "774DC4F5-65E9-4249-9D75-3F966EE02DA2 - 2d53013fa9b29b31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThreadsTutorial.ContentActionButtonViewModel.likeThread() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byungsoochoi/Desktop/ios/ThreadsTutorial/ThreadsTutorial/Core/Components/Threads/ViewModel/ContentActionButtonViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "774DC4F5-65E9-4249-9D75-3F966EE02DA2 - 8b9149e18c2a780d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ThreadsTutorial.ContentActionButtonViewModel.likeThread() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byungsoochoi/Desktop/ios/ThreadsTutorial/ThreadsTutorial/Core/Components/Threads/ViewModel/ContentActionButtonViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

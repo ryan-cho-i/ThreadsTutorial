@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentActionButtonView: View {
     
     @ObservedObject var viewModel: ContentActionButtonViewModel
+    @State private var showReplySheet = false
 
     init (thread: Thread) {
         self.viewModel = ContentActionButtonViewModel(thread: thread)
@@ -44,7 +45,7 @@ struct ContentActionButtonView: View {
                 }
                 
                 Button {
-                    
+                    showReplySheet.toggle()
                 } label: {
                     Image(systemName: "bubble.right")
                 }
@@ -69,6 +70,9 @@ struct ContentActionButtonView: View {
                     .padding(.vertical, 4)
             }
         }
+        .sheet(isPresented: $showReplySheet, content: {
+            ThreadReplyView(thread: thread)
+        })
     }
 }
 
