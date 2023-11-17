@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct ThreadReplyCell: View {
     
     let reply: ThreadReply
     

@@ -52,9 +52,9 @@ struct ThreadDetailView: View {
                 Divider()
                     .padding(.vertical)
                 
-                LazyVStack {
+                LazyVStack (spacing: 16) {
                     ForEach(viewModel.replies) { reply in
-                        ThreadReplyC
+                        
                         ThreadReplyCell(reply: reply)
                     }
                 }

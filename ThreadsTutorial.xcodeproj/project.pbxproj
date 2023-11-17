@@ -59,6 +59,7 @@
 		BDA504382B07EA8C00EBB161 /* ThreadDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA504372B07EA8C00EBB161 /* ThreadDetailView.swift */; };
 		BDA5043A2B07ED1500EBB161 /* ThreadDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA504392B07ED1500EBB161 /* ThreadDetailsViewModel.swift */; };
 		BDA5043C2B07EEBF00EBB161 /* ThreadReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5043B2B07EEBF00EBB161 /* ThreadReplyCell.swift */; };
+		BDA5043E2B08118100EBB161 /* ThreadReplyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5043D2B08118100EBB161 /* ThreadReplyProfileCell.swift */; };
 		BDDA23AC2B0275330011697D /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23AB2B0275330011697D /* ExploreViewModel.swift */; };
 		BDDA23AE2B0277040011697D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23AD2B0277040011697D /* PreviewProvider.swift */; };
 		BDDA23B22B027A710011697D /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA23B12B027A710011697D /* CurrentUserProfileView.swift */; };
@@ -114,6 +115,7 @@
 		BDA504372B07EA8C00EBB161 /* ThreadDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadDetailView.swift; sourceTree = "<group>"; };
 		BDA504392B07ED1500EBB161 /* ThreadDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadDetailsViewModel.swift; sourceTree = "<group>"; };
 		BDA5043B2B07EEBF00EBB161 /* ThreadReplyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadReplyCell.swift; sourceTree = "<group>"; };
+		BDA5043D2B08118100EBB161 /* ThreadReplyProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadReplyProfileCell.swift; sourceTree = "<group>"; };
 		BDDA23AB2B0275330011697D /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		BDDA23AD2B0277040011697D /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		BDDA23B12B027A710011697D /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
@@ -475,6 +477,7 @@
 			children = (
 				BDDA23B52B027D260011697D /* ProfileHeaderView.swift */,
 				BDDA23B72B027F130011697D /* UserContentListView.swift */,
+				BDA5043D2B08118100EBB161 /* ThreadReplyProfileCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -772,6 +775,7 @@
 				BD9F02792AFEF40400AB8AA8 /* ProfileView.swift in Sources */,
 				BD9F025D2AFE9F3E00AB8AA8 /* RegistrationView.swift in Sources */,
 				BD8ACF122B00171700FD3FB4 /* User.swift in Sources */,
+				BDA5043E2B08118100EBB161 /* ThreadReplyProfileCell.swift in Sources */,
 				BDA504332B07E18B00EBB161 /* ThreadReplyViewModel.swift in Sources */,
 				BDA138E62B05286200781443 /* ThreadService.swift in Sources */,
 				BDA504292B07AC2200EBB161 /* ThreadReplyView.swift in Sources */,
