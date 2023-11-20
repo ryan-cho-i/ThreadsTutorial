@@ -16,10 +16,18 @@ struct ThreadService {
         try await Firestore.firestore().collection("threads").addDocument(data: threadData)
     }
     
+    static func fetchThread (threadId: String) async throws -> Thread {
+        let snapshot = try await FirestoreConstants
+            .ThreadsCollection
+            .document(threadId)
+            .getDocument()
+        
+        return try snapshot.data(as: Thread.self)
+    }
+    
     static func fetchThreads() async throws -> [Thread] {
-        let snapshot = try await Firestore
-            .firestore()
-            .collection("threads")
+        let snapshot = try await FirestoreConstants
+            .ThreadsCollection
             .order(by: "timestamp", descending: true)
             .getDocuments()
         
@@ -52,14 +60,7 @@ struct ThreadService {
         return replies
     }
     
-    static func fetchThread (threadId: String) async throws -> Thread {
-        let snapshot = try await FirestoreConstants
-            .ThreadsCollection
-            .document(threadId)
-            .getDocument()
-        
-        return try snapshot.data(as: Thread.self)
-    }
+ 
 }
 
 // MARK

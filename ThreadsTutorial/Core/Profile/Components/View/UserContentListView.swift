@@ -60,7 +60,7 @@ struct UserContentListView: View {
                     }
                 case .replies:
                     ForEach(viewModel.replies) { reply in
-                        ThreadReplyProfileCell(reply: DeveloperPreview.shared.reply)
+                        ThreadReplyProfileCell(reply: reply)
                             .transition(.move(edge: .trailing))
                     }
                 }
