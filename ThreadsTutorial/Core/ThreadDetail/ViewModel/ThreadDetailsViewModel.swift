@@ -19,7 +19,9 @@ class ThreadDetailsViewModel: ObservableObject {
     }
     
     private func fetchThreadReplies () async throws {
-        self.replies = try await ThreadReplyService.fetchThreadReplies(forThread: thread)
+        self.replies = try await ThreadReplyService
+            .fetchThreadReplies(forThread: thread)
+        try await fetchUserDataForReplies()
     }
     
     private func fetchUserDataForReplies () async throws {
@@ -27,7 +29,7 @@ class ThreadDetailsViewModel: ObservableObject {
         for i in 0 ..< replies.count {
             let reply = replies [i]
             
-            async let user = UserService.fetchUser(withUid: reply.threadOwnerUid)
+            async let user = try await UserService.fetchUser(withUid: reply.threadReplyOwnerUid)
             self.replies[i].replyUser = try await user
         }
     }

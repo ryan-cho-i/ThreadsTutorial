@@ -8,6 +8,7 @@
 import Foundation
 
 class FeedViewModel: ObservableObject {
+   
     @Published var threads = [Thread]()
     
     init(){
